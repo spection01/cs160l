@@ -1,6 +1,16 @@
 import java.util.List;
 
+/**
+ * The {@code WithHotWater} class is a concrete coffee decorator that adds hot water to the base coffee.
+ * It extends the {@code CoffeeDecorator} class and provides additional functionality for hot water.
+ */
 public class WithHotWater extends CoffeeDecorator {
+
+    /**
+     * Constructs a new {@code WithHotWater} object with the specified coffee to be decorated.
+     *
+     * @param coffee the coffee object to be decorated with hot water
+     */
     public WithHotWater(Coffee coffee) {
         super(coffee);
     }
